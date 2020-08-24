@@ -1,6 +1,10 @@
 import React from 'react';
 import CoponentBox from './ComponentBox';
 import MyDiv from './MyDiv';
+import RepoList from './RepoList';
+
+import $ from 'jquery';
+
 /*import logo from './logo.svg';
 import './App.css';
 
@@ -35,6 +39,7 @@ class MyApp extends React.Component {
     <div>
       <CoponentBox /> 
       <MyDiv name={greeting}/> 
+      <RepoList prm={$.getJSON('https://api.github.com/search/repositories?q=javascript&sort=stars')}/>
       </div>  
       );
   }
