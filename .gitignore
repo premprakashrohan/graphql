@@ -1,3 +1,4 @@
 *node_modules/*
 package-lock.json
 *public/*
+graph-server/node_modules/*
