@@ -1,10 +1,13 @@
 
 
+
 const books = [
-    { name: 'Digital Fortress', genre: 'Crime', id: '1' },
-    { name: 'Murder on the Orient Express', genre: 'Thriller', id: '2' },
-    { name: 'Coma', genre: 'Mystery', id: '3' },
-    { name: 'The Sherlock Holmes', genre: 'Mystery', id: '4' },
+    { name: 'Digital Fortress', genre: 'Crime', id: '1', authorId: '1' },
+    { name: 'Murder on the Orient Express', genre: 'Thriller', id: '2', authorId: '2' },
+    { name: 'Coma', genre: 'Mystery', id: '3' , authorId: '3'},
+    { name: 'The Sherlock Holmes Vol 1', genre: 'Mystery', id: '4', authorId: '4' },
+    { name: 'The Sherlock Holmes Vol 2', genre: 'Mystery', id: '4', authorId: '4' },
+    { name: 'The Sherlock Holmes Vol 3', genre: 'Mystery', id: '4', authorId: '4' },
 ];
 
 
