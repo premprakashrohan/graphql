@@ -2,3 +2,4 @@
 package-lock.json
 *public/*
 graph-server/node_modules/*
+graph-server/graphQLApplication/server/node_modules/*
